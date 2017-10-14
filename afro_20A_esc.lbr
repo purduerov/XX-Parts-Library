@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="8.3.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="AFRO_20A_ESC">
+<wire x1="-21" y1="10" x2="22" y2="10" width="0.1524" layer="21"/>
+<wire x1="22" y1="10" x2="22" y2="-10" width="0.1524" layer="21"/>
+<wire x1="22" y1="-10" x2="-21" y2="-10" width="0.1524" layer="21"/>
+<wire x1="-21" y1="-10" x2="-21" y2="10" width="0.1524" layer="21"/>
+<pad name="P1" x="-18" y="-7" drill="2"/>
+<pad name="P3" x="-18" y="7" drill="2"/>
+<pad name="P2" x="-18" y="0" drill="2"/>
+<pad name="GND" x="19" y="-7" drill="2"/>
+<pad name="VCC" x="19" y="7" drill="2"/>
+<pad name="PWM_GND" x="20" y="-3" drill="1"/>
+<pad name="PWM_SGN" x="20" y="0.54" drill="1"/>
+<text x="11.43" y="-8.38" size="1.778" layer="21">GND</text>
+<text x="10.43" y="6.11" size="1.778" layer="21">+12v</text>
+<text x="-15.51" y="-7.65" size="1.778" layer="21">Phase 1</text>
+<text x="-15.51" y="-1" size="1.778" layer="21">Phase 2</text>
+<text x="-15.51" y="6.38" size="1.778" layer="21">Phase 3</text>
+<text x="7.08" y="-3.69" size="1.778" layer="21">PWM GND</text>
+<text x="7.08" y="-0.23" size="1.778" layer="21">PWM SGN</text>
+<text x="-21.09" y="10.16" size="1.27" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="AFRO_20A_ESC">
+<wire x1="-12.7" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<pin name="P1" x="-17.78" y="10.16" length="middle"/>
+<pin name="P2" x="-17.78" y="5.08" length="middle"/>
+<pin name="GND" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="VCC" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="P3" x="-17.78" y="0" length="middle"/>
+<text x="-12.7" y="12.7" size="1.778" layer="94">&gt;NAME</text>
+<text x="-12.7" y="-5.08" size="1.778" layer="94">&gt;VALUE</text>
+<pin name="PWM_GND" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="PWM_SGN" x="10.16" y="2.54" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AFRO_20A_ESC">
+<gates>
+<gate name="G$1" symbol="AFRO_20A_ESC" x="5.08" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="AFRO_20A_ESC">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+<connect gate="G$1" pin="P3" pad="P3"/>
+<connect gate="G$1" pin="PWM_GND" pad="PWM_GND"/>
+<connect gate="G$1" pin="PWM_SGN" pad="PWM_SGN"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
