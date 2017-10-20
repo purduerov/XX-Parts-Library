@@ -78,6 +78,16 @@
 <text x="-15.24" y="0" size="1.27" layer="21">YELLOW</text>
 <text x="-15.24" y="-7.62" size="1.27" layer="21">RED</text>
 </package>
+<package name="3PINCONNECTOR">
+<pad name="B" x="0" y="0" drill="1.6" diameter="2.5"/>
+<pad name="C" x="5.08" y="0" drill="1.6" diameter="2.5"/>
+<pad name="A" x="-5.08" y="0" drill="1.6" diameter="2.5"/>
+<wire x1="-8.52" y1="3.9" x2="8.52" y2="3.9" width="0.127" layer="21"/>
+<wire x1="8.52" y1="3.9" x2="8.52" y2="-3.9" width="0.127" layer="21"/>
+<wire x1="8.52" y1="-3.9" x2="-8.52" y2="-3.9" width="0.127" layer="21"/>
+<wire x1="-8.52" y1="-3.9" x2="-8.52" y2="3.9" width="0.127" layer="21"/>
+<text x="-8.8" y="4.8" size="1.27" layer="21">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="AFRO_20A_ESC">
@@ -95,6 +105,16 @@
 <pin name="PWM_GND" x="10.16" y="7.62" length="middle" rot="R180"/>
 <pin name="PWM_SGN" x="10.16" y="2.54" length="middle" rot="R180"/>
 </symbol>
+<symbol name="3PINCONNECTOR">
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<pin name="A" x="-12.7" y="5.08" length="middle"/>
+<pin name="B" x="-12.7" y="0" length="middle"/>
+<pin name="C" x="-12.7" y="-5.08" length="middle"/>
+<text x="-7.62" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AFRO_20A_ESC">
@@ -111,6 +131,23 @@
 <connect gate="G$1" pin="RED" pad="RED"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 <connect gate="G$1" pin="YEL" pad="YEL"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3PINCONNECTOR">
+<gates>
+<gate name="G$1" symbol="3PINCONNECTOR" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="3PINCONNECTOR">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
