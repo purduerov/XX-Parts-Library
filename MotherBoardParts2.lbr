@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -22,16 +22,16 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
@@ -184,6 +184,56 @@
 <pad name="P$29" x="1.27" y="-13.97" drill="1"/>
 <pad name="P$30" x="1.27" y="-16.51" drill="1"/>
 </package>
+<package name="BRICK_TO_POWER_DIST_WHOLE">
+<pad name="GND6" x="-3.81" y="16.51" drill="1" rot="R90"/>
+<pad name="GND7" x="-1.27" y="16.51" drill="1" rot="R90"/>
+<pad name="GND8" x="1.27" y="16.51" drill="1" rot="R90"/>
+<pad name="GND9" x="3.81" y="16.51" drill="1" rot="R90"/>
+<pad name="GND10" x="6.35" y="16.51" drill="1" rot="R90"/>
+<pad name="+12V6" x="10.16" y="16.51" drill="1" rot="R90"/>
+<pad name="+12V7" x="12.7" y="16.51" drill="1" rot="R90"/>
+<pad name="+12V8" x="15.24" y="16.51" drill="1" rot="R90"/>
+<pad name="+12V9" x="17.78" y="16.51" drill="1" rot="R90"/>
+<pad name="+12V10" x="20.32" y="16.51" drill="1" rot="R90"/>
+<pad name="GND1" x="-3.81" y="19.05" drill="1" rot="R90"/>
+<pad name="GND2" x="-1.27" y="19.05" drill="1" rot="R90"/>
+<pad name="GND3" x="1.27" y="19.05" drill="1" rot="R90"/>
+<pad name="GND4" x="3.81" y="19.05" drill="1" rot="R90"/>
+<pad name="GND5" x="6.35" y="19.05" drill="1" rot="R90"/>
+<pad name="+12V1" x="10.16" y="19.05" drill="1" rot="R90"/>
+<pad name="+12V2" x="12.7" y="19.05" drill="1" rot="R90"/>
+<pad name="+12V3" x="15.24" y="19.05" drill="1" rot="R90"/>
+<pad name="+12V4" x="17.78" y="19.05" drill="1" rot="R90"/>
+<pad name="+12V5" x="20.32" y="19.05" drill="1" rot="R90"/>
+<pad name="SCL" x="-3.175" y="-52.07" drill="1" rot="R90"/>
+<pad name="ON/OFF" x="-0.635" y="-52.07" drill="1" rot="R90"/>
+<pad name="P$3" x="1.905" y="-52.07" drill="1" rot="R90"/>
+<pad name="48V_GND3" x="4.445" y="-52.07" drill="1" rot="R90"/>
+<pad name="48V_GND4" x="6.985" y="-52.07" drill="1" rot="R90"/>
+<pad name="SDA" x="-3.175" y="-49.53" drill="1" rot="R90"/>
+<pad name="D_GND" x="-0.635" y="-49.53" drill="1" rot="R90"/>
+<pad name="P$18" x="1.905" y="-49.53" drill="1" rot="R90"/>
+<pad name="48V_GND1" x="4.445" y="-49.53" drill="1" rot="R90"/>
+<pad name="48V_GND2" x="6.985" y="-49.53" drill="1" rot="R90"/>
+<pad name="P$31" x="9.525" y="-52.07" drill="1" rot="R90"/>
+<pad name="2" x="12.065" y="-52.07" drill="1" rot="R90"/>
+<pad name="+48V3" x="14.605" y="-52.07" drill="1" rot="R90"/>
+<pad name="+48V4" x="17.145" y="-52.07" drill="1" rot="R90"/>
+<pad name="P$35" x="19.685" y="-52.07" drill="1" rot="R90"/>
+<pad name="P$36" x="9.525" y="-49.53" drill="1" rot="R90"/>
+<pad name="1" x="12.065" y="-49.53" drill="1" rot="R90"/>
+<pad name="+48V1" x="14.605" y="-49.53" drill="1" rot="R90"/>
+<pad name="+48V2" x="17.145" y="-49.53" drill="1" rot="R90"/>
+<pad name="P$40" x="19.685" y="-49.53" drill="1" rot="R90"/>
+<wire x1="-5.08" y1="20.32" x2="21.59" y2="20.32" width="0.127" layer="21"/>
+<wire x1="21.59" y1="20.32" x2="21.59" y2="15.24" width="0.127" layer="21"/>
+<wire x1="21.59" y1="15.24" x2="-5.08" y2="15.24" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="15.24" x2="-5.08" y2="20.32" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-53.34" x2="-5.08" y2="-48.26" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-48.26" x2="21.59" y2="-48.26" width="0.127" layer="21"/>
+<wire x1="21.59" y1="-48.26" x2="21.59" y2="-53.34" width="0.127" layer="21"/>
+<wire x1="21.59" y1="-53.34" x2="-5.08" y2="-53.34" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="POWER_BRICK_CONNECTORS(2X6)">
@@ -239,6 +289,24 @@
 <pin name="P$28" x="12.7" y="-27.94" length="middle" rot="R180"/>
 <pin name="P$29" x="12.7" y="-33.02" length="middle" rot="R180"/>
 <pin name="P$30" x="12.7" y="-38.1" length="middle" rot="R180"/>
+</symbol>
+<symbol name="BRICK_TO_POWER_DIST_WHOLE">
+<wire x1="-10.16" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<pin name="+12V" x="-15.24" y="15.24" length="middle"/>
+<pin name="GND" x="-15.24" y="10.16" length="middle"/>
+<pin name="+48V" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="48V_GND" x="17.78" y="10.16" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="-2.54" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<pin name="SCL" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="D_GND" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="SDA" x="-15.24" y="-5.08" length="middle"/>
+<pin name="ON/OFF" x="-15.24" y="-10.16" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -305,6 +373,28 @@
 <connect gate="G$1" pin="P$7" pad="P$7"/>
 <connect gate="G$1" pin="P$8" pad="P$8"/>
 <connect gate="G$1" pin="P$9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BRICK_TO_POWER_DIST_WHOLE">
+<gates>
+<gate name="G$1" symbol="BRICK_TO_POWER_DIST_WHOLE" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="BRICK_TO_POWER_DIST_WHOLE">
+<connects>
+<connect gate="G$1" pin="+12V" pad="+12V1 +12V2 +12V3 +12V4 +12V5 +12V6 +12V7 +12V8 +12V9 +12V10"/>
+<connect gate="G$1" pin="+48V" pad="+48V1 +48V2 +48V3 +48V4"/>
+<connect gate="G$1" pin="48V_GND" pad="48V_GND1 48V_GND2 48V_GND3 48V_GND4"/>
+<connect gate="G$1" pin="D_GND" pad="D_GND"/>
+<connect gate="G$1" pin="GND" pad="GND1 GND2 GND3 GND4 GND5 GND6 GND7 GND8 GND9 GND10"/>
+<connect gate="G$1" pin="ON/OFF" pad="ON/OFF"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
 </connects>
 <technologies>
 <technology name=""/>
